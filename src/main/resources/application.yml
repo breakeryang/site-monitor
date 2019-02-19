@@ -1,0 +1,14 @@
+
+spring:
+  application:
+    name: site-monitor
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/site_monitor
+    username: root
+    password:
+    druid:
+      filter:
+        stat:
+          enabled: true
+
